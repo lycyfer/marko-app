@@ -1,0 +1,281 @@
+.footer {
+    width: 100%;
+    min-height: 300px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_link {
+    margin-left: 41px;
+    margin-top: 56px;
+}
+
+.footer_title_link {
+    margin: 0;
+    color: #FFF;
+    /* text-align: center; */
+    /* font-family: Radley; */
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0;
+}
+
+.ws_block {
+    margin-top: 22px;
+}
+
+
+.tg_block {
+    width: 120px;
+    height: 27px;
+    flex-shrink: 0;
+    background: #FFF;
+    color: #303030;
+    text-align: center;
+    /* font-family: Quicksand; */
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    /* transition: 0.3s ease-in-out; */
+}
+
+.frame {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #303030;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn-5 {
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: #fff;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.btn-5:hover {
+    color: #2AABEE;
+    background: transparent;
+    box-shadow: none;
+}
+
+
+
+.btn-5:before,
+.btn-5:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #2AABEE;
+    box-shadow:
+        -1px -1px 5px 0px #fff,
+        7px 7px 20px 0px #0003,
+        4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+.btn-5:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.btn-5:hover:before,
+.btn-5:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+
+.btn-5-tg {
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: #fff;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.btn-5-tg:hover {
+    color: #25D366;
+    background: transparent;
+    box-shadow: none;
+}
+
+
+
+.btn-5-tg:before,
+.btn-5-tg:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #25D366;
+    box-shadow:
+        -1px -1px 5px 0px #fff,
+        7px 7px 20px 0px #0003,
+        4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+.btn-5-tg:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.btn-5-tg:hover:before,
+.btn-5-tg:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tg_flex {
+    margin-top: 27px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tgg {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 49%;
+    top: 11px;
+    fill: #fff;
+}
+
+.ws {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 10px;
+    fill: #25D366;
+}
+
+.tg_footer {
+    position: relative;
+    width: 55px;
+    height: 50px;
+    background: #2AABEE;
+    border-radius: 100%;
+    left: -34px;
+    transition: 0.3s;
+}
+
+.tg_footer_ws {
+    position: relative;
+    width: 55px;
+    height: 50px;
+    background: #FFF;
+    border-radius: 100%;
+    left: -34px;
+    transition: 0.3s;
+}
+
+
+
+
+
+/* .tg_footer:hover .tgg {
+    fill: #fff;
+
+}
+
+
+.tg_footer_ws:hover .ws {
+    fill: #25D366;
+
+} */
+
+
+.footer_logo {
+    /* margin: 0 auto; */
+    margin-top: 56px;
+}
+
+.footer_subtitle {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0;
+}
+
+.footer_phone {
+    color: #FFF;
+    text-align: right;
+    /* font-family: Quicksand; */
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+
+.footer_second_title_link {
+    margin: 0;
+    color: #FFF;
+    /* text-align: center; */
+    /* font-family: Radley; */
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0;
+    padding-bottom: 15px;
+}
+
+.footer_second_title {
+    margin-right: 41px;
+    margin-top: 56px;
+
+}

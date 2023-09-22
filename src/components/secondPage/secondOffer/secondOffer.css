@@ -1,0 +1,252 @@
+.secondOffer {
+    width: 100%;
+    min-height: 1000px;
+}
+
+
+.border_link_offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.border_offer {
+    width: 120px;
+    height: 1px;
+    background-color: #000;
+}
+
+.mini_logo_offer {
+    padding: 0 20px 0 20px;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.secondOffer_lable {
+    color: #000;
+    text-align: center;
+    /* font-family: Merienda; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.change_input {
+    width: 210px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-left: 30px;
+
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.secondOffer_input {
+    /* width: 284px;
+    height: 30px; */
+    display: flex;
+    align-items: center;
+    /* padding-right: 41px; */
+}
+
+.modal__form input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.secondOffer_label {
+    color: #000;
+    text-align: center;
+    /* font-family: Merienda; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 20px;
+}
+
+.secondOffer_button {
+    min-width: 110px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px 0px 0px 4px;
+    background: #FFF;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+
+    color: #000;
+    text-align: center;
+    /* font-family: Merienda; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+.secondOffer_button-light {
+    background: #FFFFFF;
+    /* box-shadow: 4px 4px 20px rgba(71, 84, 56, 1); */
+    box-shadow: 4px 4px 20px #2DAA55;
+
+    border-radius: 4px 0px 0px 4px;
+}
+
+.secondOffer_filter {
+    display: flex;
+    align-items: center
+}
+
+.secondOffer_list_item {
+    width: 560px;
+    min-height: 280px;
+    display: flex;
+    border: none;
+    margin-top: 20px;
+    /* align-items: center; */
+    /* transition: .3s; */
+    /* justify-content: space-between; */
+    /* width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background: #FFF;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+
+    margin-left: 85px; */
+
+}
+
+.secondOffer_list_item:hover {
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+
+}
+
+.secondOffer_list_item:hover .item_offer_name {
+    color: #2DAA55;
+}
+
+.secondOffer_list {
+    /* width: 100%;
+    margin-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start; */
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 61px auto;
+    /* margin-left: 50px; */
+}
+
+
+
+
+a.secondOffer_list_item {
+    color: #000 !important;
+    text-decoration: none
+}
+
+.item_offer_name {
+    color: #000;
+    font-family: Calibri, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0;
+    text-align: start;
+    padding-top: 8px;
+    text-decoration: none;
+}
+
+.item_text_block {
+    margin-left: 20px;
+
+
+}
+
+.item_second_name {
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.item_descr {
+    font-weight: 400;
+    font-family: Calibri, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 16px;
+    width: 300px;
+}
+
+.item_offer_img {
+    display: block;
+    /* display: block;
+    margin: 0 auto;
+    padding-top: 15px; */
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 30px;
+    width: 220px;
+    height: 230px;
+}
+
+
+
+.showMore {
+    display: block;
+    width: 220px;
+    height: 65px;
+    flex-shrink: 0;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    text-align: center;
+    /* font-family: Radley; */
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 10px;
+    background-color: rgba(48, 48, 48, 1);
+    /* margin-left: 380px; */
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+
+.showMore:hover {
+    transform: translateY(-10px);
+}
+
+.noMoreItems {
+    color: #000;
+    /* font-family: Calibri, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0;
+    /* text-align: start; */
+    text-decoration: none;
+    margin-bottom: 40px;
+}
